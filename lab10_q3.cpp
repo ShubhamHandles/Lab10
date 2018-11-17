@@ -1,6 +1,5 @@
 //Q.3.Create a class for rectangle that stores data of length and breadth and has two functions : area() and perimeter(). Write a program that uses this class to create two rectangles (rectangle objects) of user input length and breadth. Compare the areas and perimeter of the those rectangles.
 
-
 #include<iostream>
 using namespace std;
 
@@ -62,37 +61,21 @@ int main(){
 	double perimeter2 = r2.getPerimeter();
 	cout << "Perimeter of rectangle2 = " << perimeter2 << endl;
 
+	//compare
 	if (area1>area2)
 	cout << "Area of rectangle1 is bigger!" << endl;
 	else if (area1<area2) 
 	cout << "Area of rectangle2 is bigger!" << endl;
 	else 
-	cout << "Areas of both rectangles are equal!" << endl;
+	cout << "Areas of both the rectangles are equal!" << endl;
 
 	if (perimeter1>perimeter2)
 	cout << "Perimeter of rectangle1 is bigger!" << endl;
 	else if (perimeter1<perimeter2)
 	cout << "Perimeter of rectangle2 is bigger!" << endl;
 	else 
-	cout << "Perimeters of both rectangles are equal!" << endl;
+	cout << "Perimeters of both the rectangles are equal!" << endl;
 	
 
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
